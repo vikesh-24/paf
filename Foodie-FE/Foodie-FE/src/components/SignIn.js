@@ -65,16 +65,7 @@ function SignIn() {
     }
   }
   
-  const handleAuth = (data) => {
-    postSignInInfoWithGoogle(data)
-  }
-  
-  let navigate = useNavigate();
-
-  const schema = yup.object().shape({
-    email: yup.string().email().required(),
-    password: yup.string().required(),
-  });
+ 
 
   async function postSignInInfo(inputData) {
     const response = await axios({
