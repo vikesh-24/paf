@@ -12,7 +12,13 @@ function Profile() {
     (state) => state.checkProfileReducer.profileInfo
   );
 
-  
+  useEffect(() => {
+    if (userId !== null) {
+      dispatch(getProfilePosts(userId));
+      dispatch(getProfileInfo(userId));
+    }
+    console.log(postList, "postList");
+  }, []);
 
   return (
     <div>
