@@ -18,13 +18,7 @@ import {
 
 import styles from "./styles/NewsFeed.module.css";
 
-function NewsFeed() {
-  let navigate = useNavigate();
-  // const [tabValue, setTabValue] = useState("All");
 
-  function handleClick(e) {
-    navigate("/newsfeed/allaccounts");
-  }
 
   function handleSignOut(e) {
     localStorage.removeItem("psnUserId");
