@@ -127,22 +127,7 @@ function PostItem(props) {
     }
   }
 
-  function sendComment(e) {
-    dispatch(
-      addComment({
-        postId: postId,
-        newComment: {
-          userId: localStorage.getItem("psnUserId"),
-          userFullname:
-            localStorage.getItem("psnUserFirstName") +
-            " " +
-            localStorage.getItem("psnUserLastName"),
-          content: commentContent,
-        },
-      })
-    );
-    setCommentContent("");
-  }
+ 
 
   const handleEditModalOpen = () => {
     setShowEditModal(true);
