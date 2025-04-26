@@ -5,7 +5,13 @@ import { Link } from 'react-router-dom';
 export default function CookingSkillsLanding() {
   const [animationProgress, setAnimationProgress] = useState(0);
   
-  
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setAnimationProgress(100);
+    }, 500);
+    
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div style={{
