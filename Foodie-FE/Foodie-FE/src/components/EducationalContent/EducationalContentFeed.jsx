@@ -31,15 +31,7 @@ const EducationalContentFeed = ({ userId }) => {
     setError('');
     
     try {
-      const response = await axios.post(
-        `/api/v1/educational/${endpoint}`,
-        { id: userId },
-        {
-          headers: {
-            Authorization: token,
-          },
-        }
-      );
+     
       
       if (response.data.status === 'success') {
         setContentFeed(response.data.payload);
