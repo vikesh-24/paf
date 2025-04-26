@@ -1,16 +1,6 @@
 /* pdfViewer.css - matching signup page theme */
 
-.pdf-container {
-    width: 100%;
-    height: 550px;
-    position: relative;
-    background: rgba(255, 255, 255, 0.9);
-    border: 1px solid rgba(217, 119, 6, 0.2);
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    transition: all 0.3s ease;
-}
+
 
 .pdf-container:hover {
     border-color: #d97706;
