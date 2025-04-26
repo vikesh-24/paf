@@ -78,7 +78,21 @@ function AllAccounts() {
         
         {/* Background shapes */}
         {[...Array(5)].map((_, i) => (
-          
+          <div 
+            key={`shape-${i}`}
+            style={{
+              position: 'absolute',
+              borderRadius: '20%',
+              border: '2px solid rgba(255, 255, 255, 0.1)',
+              width: `${Math.random() * 100 + 150}px`,
+              height: `${Math.random() * 100 + 150}px`,
+              top: `${Math.random() * 100}%`,
+              left: `${Math.random() * 100}%`,
+              transform: `rotate(${Math.random() * 360}deg) scale(${animationProgress / 100})`,
+              transition: 'transform 1.8s cubic-bezier(0.34, 1.56, 0.64, 1)',
+              transitionDelay: `${i * 0.1 + 0.2}s`
+            }}
+          />
         ))}
       </div>
 
