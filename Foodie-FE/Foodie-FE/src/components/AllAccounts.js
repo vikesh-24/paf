@@ -15,7 +15,11 @@ function AllAccounts() {
   );
   const [animationProgress, setAnimationProgress] = useState(0);
 
-  
+  useEffect (() => {
+    if (dispatch(getFollowingAccounts())){
+      dispatch(getAllAccounts());
+    }
+    }, [dispatch, getFollowingAccounts, getAllAccounts])
 
   useEffect(() => {
     if (localStorage.getItem("psnToken") === null) {
