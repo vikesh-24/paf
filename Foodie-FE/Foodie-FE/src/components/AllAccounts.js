@@ -8,7 +8,11 @@ import { getFollowingAccounts } from "../feature/followingAccounts/followingAcco
 
 
 function AllAccounts() {
- 
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const storeFollowerAccounts = useSelector(
+    (state) => state.followingAccountReducer.followerAccounts
+  );
   const [animationProgress, setAnimationProgress] = useState(0);
 
   useEffect (() => {
