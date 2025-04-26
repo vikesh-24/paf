@@ -26,13 +26,7 @@ import { Lightbulb, HelpCircle, Briefcase, Palette, Compass, Zap, MessageCircle 
 function PostItem(props) {
   const dispatch = useDispatch();
 
-  const [loveStatus, setLoveStatus] = useState(false);
-  const [commentStatus, setCommentStatus] = useState(false);
-  const [commentContent, setCommentContent] = useState("");
-  const [sendButtonDisable, setSendButtonDisable] = useState(true);
-  const [currentUserId, setCurrentUserId] = useState(
-    localStorage.getItem("psnUserId")
-  );
+  
   const [postId, setPostId] = useState(props.postId);
 
   const [showEditModal, setShowEditModal] = useState(false);
