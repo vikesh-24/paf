@@ -18,7 +18,7 @@ function FollowerList() {
       navigate("/unauthorized");
     }
     
-    dispatch(getFollowerAccounts());
+    
     
     // Animation effect
     const timer = setTimeout(() => {
