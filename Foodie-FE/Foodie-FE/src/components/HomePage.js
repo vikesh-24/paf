@@ -68,10 +68,10 @@ function HomePage() {
             </Row>{" "}
             <br />
             <Row>
-              <Link to="/signin" className={styles.linkTextFormat}><Button variant="success" className={`${styles.btnHomePage} mb-3`}>Sign In <RiLoginBoxLine /></Button></Link>
+              <Link to="/signin" className={styles.linkTextFormat}><Button variant="success" className={`${styles.btnHomePage} mb-3`}>Sign In<RiLoginBoxLine /></Button></Link>
             </Row>
             <Row>
-            <Link to="/signup" className={styles.linkTextFormat}><Button variant="success" className={styles.btnHomePage}>Sign Up <BsFillPersonPlusFill /></Button></Link>
+            <Link to="/signup" className={styles.linkTextFormat}><Button variant="success" className={styles.btnHomePage}>Sign Up<BsFillPersonPlusFill /></Button></Link>
             </Row>
           </div>
         </Col>
