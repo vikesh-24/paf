@@ -9,7 +9,7 @@ const initialState = {
 export const getFollowingAccounts = createAsyncThunk(
   "/api/v1/users/getfollowing",
   async (thunkAPI) => {
-    const response = await ({
+    const response = await axios({
       method: "post",
       url: "/api/v1/users/getfollowing",
       headers: {
