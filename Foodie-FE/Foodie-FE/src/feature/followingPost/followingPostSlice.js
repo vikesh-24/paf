@@ -37,7 +37,7 @@ async function insertComment(postId, commentContent) {
         content: commentContent,
       },
       postId: {
-        id: ,
+        id: postId,
       },
     },
   });
