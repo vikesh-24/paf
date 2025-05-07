@@ -221,7 +221,7 @@ function SignIn() {
                 fontWeight: 'bold',
                 color: '#92400e',
                 marginBottom: '0.5rem'
-              }}>Welcome Back, Chef!</h2>
+              }}>Welcome Back, Learner!</h2>
               <p style={{
                 color: '#78350f',
                 fontSize: '1rem'
@@ -412,8 +412,8 @@ function SignIn() {
                 marginBottom: '2rem',
                 lineHeight: '1.6'
               }}>
-                Join thousands of passionate chefs and food enthusiasts on the COOKSHARE platform.
-                Share your recipes or learn new culinary techniques today.
+                Join thousands of passionate educators and educational enthusiasts on the EDUSHARE platform.
+                Share your knowledge or learn new culinary techniques today.
               </p>
               
               <div style={{
@@ -445,7 +445,7 @@ function SignIn() {
                   width: '7rem'
                 }}>
                   <span style={{ fontWeight: 'bold', fontSize: '1.5rem' }}>5K+</span>
-                  <span style={{ fontSize: '0.875rem' }}>Chefs</span>
+                  <span style={{ fontSize: '0.875rem' }}>educators</span>
                 </div>
                 <div style={{
                   backgroundColor: 'rgba(255, 255, 255, 0.2)',

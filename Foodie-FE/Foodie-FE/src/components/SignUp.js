@@ -473,8 +473,8 @@ function SignUp() {
                 marginBottom: '2rem',
                 lineHeight: '1.6'
               }}>
-                Join thousands of passionate chefs and food enthusiasts on the COOKSHARE platform.
-                Start sharing your recipes and culinary expertise today.
+                Join thousands of passionate educators and educational enthusiasts on the EDUSHARE platform.
+                Start sharing your knowledge and culinary expertise today.
               </p>
               
               <div style={{
@@ -506,7 +506,7 @@ function SignUp() {
                   width: '7rem'
                 }}>
                   <span style={{ fontWeight: 'bold', fontSize: '1.5rem' }}>5K+</span>
-                  <span style={{ fontSize: '0.875rem' }}>Chefs</span>
+                  <span style={{ fontSize: '0.875rem' }}>educators</span>
                 </div>
                 <div style={{
                   backgroundColor: 'rgba(255, 255, 255, 0.2)',
