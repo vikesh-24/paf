@@ -103,7 +103,7 @@ function NewsFeedContent() {
           fontWeight: 'bold',
           color: '#ffff',
           margin: 0
-        }}>COOKSHARE</h1>
+        }}>EDUSHARE</h1>
       </div>
 
       {/* Post Composer */}

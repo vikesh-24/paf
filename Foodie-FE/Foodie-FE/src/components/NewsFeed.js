@@ -32,7 +32,7 @@ function NewsFeed() {
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link to="/s" className={styles.navTitle} style={{ textDecoration: "none", color: "inherit" }}>
-              COOKSHARE
+              EDUSHARE
             </Link>
           </Typography>
           <Box>

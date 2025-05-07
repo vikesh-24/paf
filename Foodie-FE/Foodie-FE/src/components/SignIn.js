@@ -187,7 +187,7 @@ function SignIn() {
             fontWeight: 'bold',
             color: 'white',
             margin: 0
-          }}>COOKSHARE</h1>
+          }}>EDUSHARE</h1>
         </div>
 
         <div style={{
@@ -221,11 +221,11 @@ function SignIn() {
                 fontWeight: 'bold',
                 color: '#92400e',
                 marginBottom: '0.5rem'
-              }}>Welcome Back, Chef!</h2>
+              }}>Welcome Back, Learner!</h2>
               <p style={{
                 color: '#78350f',
                 fontSize: '1rem'
-              }}>Sign in to continue your culinary journey</p>
+              }}>Sign in to continue your educational journey</p>
             </div>
 
             <div style={{
@@ -406,7 +406,7 @@ function SignIn() {
                 fontSize: '2rem',
                 fontWeight: 'bold',
                 marginBottom: '1rem'
-              }}>Cook. Share. Inspire.</h2>
+              }}>Learn. Share. Inspire.</h2>
               <p style={{
                 fontSize: '1.125rem',
                 marginBottom: '2rem',

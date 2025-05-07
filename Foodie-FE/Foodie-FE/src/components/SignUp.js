@@ -202,7 +202,7 @@ function SignUp() {
             fontWeight: 'bold',
             color: 'white',
             margin: 0
-          }}>COOKSHARE</h1>
+          }}>EDUSHARE</h1>
         </div>
 
         <div style={{
@@ -240,7 +240,7 @@ function SignUp() {
               <p style={{
                 color: '#78350f',
                 fontSize: '1rem'
-              }}>Create an account to start your cooking journey</p>
+              }}>Create an account to start your learning journey</p>
             </div>
 
             <div style={{
@@ -467,7 +467,7 @@ function SignUp() {
                 fontSize: '2rem',
                 fontWeight: 'bold',
                 marginBottom: '1rem'
-              }}>Create. Connect. Cook.</h2>
+              }}>Create. Connect. Learn.</h2>
               <p style={{
                 fontSize: '1.125rem',
                 marginBottom: '2rem',

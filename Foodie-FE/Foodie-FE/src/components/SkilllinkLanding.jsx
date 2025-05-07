@@ -103,7 +103,7 @@ export default function CookingSkillsLanding() {
             fontSize: '3rem',
             fontWeight: 'bold',
             letterSpacing: '-0.025em'
-          }}>COOKSHARE</h1>
+          }}>EDUSHARE</h1>
         </div>
 
         {/* Main headline */}
@@ -117,7 +117,7 @@ export default function CookingSkillsLanding() {
           transition: 'transform 1s, opacity 1s',
           transitionDelay: '0.2s'
         }}>
-          Cook. Share. Inspire.
+          Learn. Share. Inspire.
         </h2>
 
         {/* Description */}
@@ -132,8 +132,8 @@ export default function CookingSkillsLanding() {
           transition: 'transform 1s, opacity 1s',
           transitionDelay: '0.4s'
         }}>
-          COOKSHARE is a community where passionate foodies connect to share recipes, 
-          cooking techniques, and culinary expertise from around the world.
+          EDUSHARE is a community where passionate learners connect to share knowledge, 
+          learning techniques, and culinary expertise from around the world.
         </p>
 
         {/* Feature highlights */}
@@ -159,7 +159,7 @@ export default function CookingSkillsLanding() {
           }}>
             <Users style={{ color: '#fbbf24', marginBottom: '1rem' }} size={32} />
             <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Global Kitchen</h3>
-            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Connect with chefs and home cooks from around the world sharing authentic recipes.</p>
+            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Connect with educators and home cooks from around the world sharing authentic recipes.</p>
           </div>
           <div style={{
             backgroundColor: 'rgba(255, 255, 255, 0.1)',
@@ -205,7 +205,7 @@ export default function CookingSkillsLanding() {
         onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
           <Link style={{textDecoration:'none', color:'white'}} to="/s">
-            <span>Start Cooking</span>
+            <span>Start learning</span>
           </Link> 
           <ChevronRight style={{ marginLeft: '0.5rem' }} />
         </button>
