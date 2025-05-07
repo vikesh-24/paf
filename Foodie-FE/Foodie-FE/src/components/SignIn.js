@@ -412,8 +412,8 @@ function SignIn() {
                 marginBottom: '2rem',
                 lineHeight: '1.6'
               }}>
-                Join thousands of passionate chefs and food enthusiasts on the COOKSHARE platform.
-                Share your recipes or learn new culinary techniques today.
+                Join thousands of passionate educators and educational enthusiasts on the EDUSHARE platform.
+                Share your knowledge or learn new culinary techniques today.
               </p>
               
               <div style={{

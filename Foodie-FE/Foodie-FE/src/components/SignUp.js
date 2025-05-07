@@ -473,8 +473,8 @@ function SignUp() {
                 marginBottom: '2rem',
                 lineHeight: '1.6'
               }}>
-                Join thousands of passionate chefs and food enthusiasts on the COOKSHARE platform.
-                Start sharing your recipes and culinary expertise today.
+                Join thousands of passionate educators and educational enthusiasts on the EDUSHARE platform.
+                Start sharing your knowledge and culinary expertise today.
               </p>
               
               <div style={{
