@@ -158,8 +158,8 @@ export default function CookingSkillsLanding() {
             backdropFilter: 'blur(4px)'
           }}>
             <Users style={{ color: '#fbbf24', marginBottom: '1rem' }} size={32} />
-            <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Global Kitchen</h3>
-            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Connect with educators and home cooks from around the world sharing authentic recipes.</p>
+            <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Global Academy</h3>
+            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Connect with educators and learners from around the world as they share authentic knowledge, skills, and cultural insights.</p>
           </div>
           <div style={{
             backgroundColor: 'rgba(255, 255, 255, 0.1)',
@@ -168,8 +168,8 @@ export default function CookingSkillsLanding() {
             backdropFilter: 'blur(4px)'
           }}>
             <Book style={{ color: '#fbbf24', marginBottom: '1rem' }} size={32} />
-            <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Recipe Collection</h3>
-            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Discover thousands of recipes from everyday meals to gourmet creations.</p>
+            <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Learning Modules</h3>
+            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Discover thousands of courses, from foundational lessons to advanced, expert-led content.</p>
           </div>
           <div style={{
             backgroundColor: 'rgba(255, 255, 255, 0.1)',
@@ -178,8 +178,8 @@ export default function CookingSkillsLanding() {
             backdropFilter: 'blur(4px)'
           }}>
             <Clock style={{ color: '#fbbf24', marginBottom: '1rem' }} size={32} />
-            <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Live Workshops</h3>
-            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Join virtual cooking sessions with expert chefs and learn new techniques in real-time.</p>
+            <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Virtual Classroom Sessions</h3>
+            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Join live virtual sessions with experts and master new skills in real-time.</p>
           </div>
         </div>
 
