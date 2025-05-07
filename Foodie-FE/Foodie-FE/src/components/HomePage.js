@@ -64,7 +64,7 @@ function HomePage() {
             </Row>
             <br />
             <Row>
-              <h3  style={{ color: "blue" }}>Food Review Application</h3>
+              <h3  style={{ color: "blue" }}>Learning Review Application</h3>
             </Row>{" "}
             <br />
             <Row>

@@ -53,7 +53,7 @@ function NewsFeed() {
   return (
     <div className="navbar">
       <span className="logo">
-        <Link className='navtitle'>FOODIEES</Link>
+        <Link className='navtitle'> FOODIEES </Link>
       </span>{
 
         <ul className="list">
