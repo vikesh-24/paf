@@ -21,21 +21,23 @@ const ProgressTracker = ({ userId }) => {
     userId: userId
   });
 
-  // Predefined cooking-related categories
+  // Predefined learning-related categories
   const cookingCategories = [
-    'Basic Cooking',
-    'Baking',
-    'Knife Skills',
-    'Meal Prep',
-    'Recipe Mastery',
-    'Plating & Presentation',
-    'Flavor Combining',
-    'Dietary Learning',
-    'Culinary Techniques',
-    'Cultural Cuisines'
-  ];
+    'Time Management & Productivity',
+    'Data Science & Analysis',
+    'Creative Writing & Storytelling',
+    'Web Development & Programming',
+    'Digital Marketing & SEO',
+    'Public Speaking & Communication',
+    'Project Management & Leadership',
+    'Graphic Design & Visual Arts',
+    'Personal Finance & Investing',
+    'Global Cultures & Languages'
+];
 
-  // Common cooking time units
+
+
+  // Common learning time units
   const timeUnits = [
     'minutes',
     'hours',
@@ -44,19 +46,20 @@ const ProgressTracker = ({ userId }) => {
     'recipes'
   ];
 
-  // Example cooking skill titles
+  // Example learning skill titles
   const skillExamples = [
-    'Knife Handling',
-    'Chopping Vegetables',
-    'Meal Preparation',
-    'Baking Bread',
-    'Perfecting Pasta',
-    'Mastering Sauces',
-    'Recipe Creation',
-    'Plating Techniques',
-    'Flavor Balancing',
-    'Cultural Dishes'
-  ];
+    'Effective Time Management',
+    'Problem-Solving Strategies',
+    'Project Management Essentials',
+    'Data Analysis & Visualization',
+    'Web Development Fundamentals',
+    'Digital Marketing Skills',
+    'Public Speaking & Presentation',
+    'Creative Writing Techniques',
+    'Leadership & Team Collaboration',
+    'Global Business Practices'
+];
+
 
   // Fetch all progress items for the user
   const fetchProgressItems = async () => {
