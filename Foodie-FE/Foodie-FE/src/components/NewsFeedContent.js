@@ -197,7 +197,7 @@ function NewsFeedContent() {
               borderRadius: '1rem',
               boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
             }}>
-              <p style={{ color: '#78350f', fontSize: '1.125rem' }}>No posts from people you follow yet. Start following more chefs!</p>
+              <p style={{ color: '#78350f', fontSize: '1.125rem' }}>No posts from people you follow yet. Start following more educators!</p>
             </div>
           )
         ) : (
