@@ -9,7 +9,7 @@ const FriendList = ({ friend }) => {
                 <p className="name">{friend.name}</p>
             </div>
             <div className='followbutton'>
-                <p className="text">Follow</p>
+                <p className="text"> Follow </p>
             </div>
         </div>
     )
