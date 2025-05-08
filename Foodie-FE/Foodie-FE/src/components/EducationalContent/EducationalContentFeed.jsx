@@ -374,11 +374,11 @@ const EducationalContentFeed = ({ userId }) => {
 
       <div className="content-feed">
         {loading ? (
-          <div className="loading">Loading content...</div>
+          <div className="loading"> Loading content... </div>
         ) : error ? (
           <div className="error">{error}</div>
         ) : contentFeed.length === 0 ? (
-          <div className="no-content">No content found</div>
+          <div className="no-content"> No content found </div>
         ) : (
           <div className="content-list">
             {contentFeed.map(item => renderContent(item))}
@@ -404,7 +404,7 @@ const EducationalContentFeed = ({ userId }) => {
         <Modal.Body>
           <Form>
             <Form.Group className="mb-3">
-              <Form.Label>Title</Form.Label>
+              <Form.Label> Title </Form.Label>
               <Form.Control 
                 type="text" 
                 value={updatedTitle} 
@@ -413,7 +413,7 @@ const EducationalContentFeed = ({ userId }) => {
             </Form.Group>
             
             <Form.Group className="mb-3">
-              <Form.Label>Description</Form.Label>
+              <Form.Label> Description </Form.Label>
               <Form.Control 
                 as="textarea" 
                 rows={3} 
@@ -424,7 +424,7 @@ const EducationalContentFeed = ({ userId }) => {
             
             {contentToUpdate?.contentType === 'TEXT' && (
               <Form.Group className="mb-3">
-                <Form.Label>Content</Form.Label>
+                <Form.Label> Content </Form.Label>
                 <Form.Control 
                   as="textarea" 
                   rows={5} 
@@ -435,7 +435,7 @@ const EducationalContentFeed = ({ userId }) => {
             )}
             
             <Form.Group className="mb-3">
-              <Form.Label>Tags (comma-separated)</Form.Label>
+              <Form.Label> Tags (comma-separated)</Form.Label>
               <Form.Control 
                 type="text" 
                 value={updatedTags} 
