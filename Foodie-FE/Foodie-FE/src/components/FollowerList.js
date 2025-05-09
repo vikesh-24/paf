@@ -15,7 +15,7 @@ function FollowerList() {
 
   useEffect(() => {
     if (localStorage.getItem("psnToken") === null) {
-      navigate("/unauthorized");
+        navigate("/unauthorized");
     }
     
     dispatch(getFollowerAccounts());
@@ -40,12 +40,15 @@ function FollowerList() {
       position: 'relative',
       overflow: 'hidden'
     }}>
+
+
       {/* Animated background elements */}
       <div style={{
         position: 'absolute',
         inset: 0,
         overflow: 'hidden'
       }}>
+
         {/* Circular elements */}
         {[...Array(10)].map((_, i) => (
           <div 
@@ -96,6 +99,7 @@ function FollowerList() {
         flexDirection: 'column',
         alignItems: 'center'
       }}>
+        
         {/* Header */}
         <div style={{ 
           display: 'flex',

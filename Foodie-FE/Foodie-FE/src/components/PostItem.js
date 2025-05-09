@@ -324,6 +324,7 @@ function PostItem(props) {
       width:'55vw',
       position: 'relative'
     }}>
+
       {/* Post type indicator ribbon */}
       <div style={{
         position: 'absolute',
@@ -341,6 +342,7 @@ function PostItem(props) {
         boxShadow: '0 2px 8px rgba(0, 0, 0, 0.15)',
         zIndex: '5'
       }}>
+        
         <span>{currentPostType.icon}</span>
         <span>{currentPostType.name}</span>
       </div>

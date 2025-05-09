@@ -87,6 +87,7 @@ function SavedPosts() {
 
       if (response.data && response.data.status === "success") {
         showSuccessMessage("Post removed from saved posts");
+
         // Remove the post from the local state
         setSavedPosts((prevPosts) => prevPosts.filter((post) => post.id !== postId));
       } else {
@@ -175,6 +176,7 @@ function SavedPosts() {
             <div className="text-center">No saved posts available</div>
           )}
         </Modal.Body>
+        
         <Modal.Footer style={{ backgroundColor: "#f8f9fa" }}>
           <Button variant="secondary" onClick={handleCloseModal}>
             Close
