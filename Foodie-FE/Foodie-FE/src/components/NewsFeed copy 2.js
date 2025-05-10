@@ -51,50 +51,7 @@ function NewsFeed() {
   });
 
   return (
-    <div className="navbar">
-      <span className="logo">
-        <Link className='navtitle'>FOODIEES</Link>
-      </span>{
-
-        <ul className="list">
-          <li className="listItem">
-            <img
-              alt=""
-              className="img1" />
-          </li>
-          <li className="listItem"></li>
-          <li className="listItem" onClick={handleSignOut}>Signout</li>
-
-          <span>
-            <Link to='profile' className="m-2" >
-              <AiFillHome className="addfriend" /> Home
-            </Link>
-            <Link to='/addpost' className="m-2">
-
-              <BiAddToQueue className="friend" />
-            </Link>
-            <Link to='/addfriend' className="m-2">
-              <AiOutlineUserAdd className="friend" />
-            </Link>
-            <Link to='/notification' className="m-2">
-              <MdOutlineNotificationsActive className="friend" />
-            </Link>
-            <Link to='/setting' className="m-2">
-              <AiOutlineSetting className="friend" />
-            </Link>
-            <Link to=''>
-              <AiOutlineLogout className="logout" />
-            </Link>
-          </span>
-        </ul>
-
-      }
-
-      <Col md={12}>
-        <Outlet
-          style={{ color: "#A7C7E7" }} />{" "}
-      </Col>
-    </div>
+    
   );
 }
 
