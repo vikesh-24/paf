@@ -414,7 +414,7 @@ const ProgressTracker = ({ userId }) => {
               </div>
             </div>
 
-            <div className="form-row">
+            <div className="form-row">  
               <div className="form-group">
                 <label>Time Unit</label>
                 <select
@@ -607,22 +607,7 @@ const ProgressTracker = ({ userId }) => {
       <div className="bottom-gradient"></div>
       
       {/* Floating decorative elements */}
-      <div className="floating-decorations">
-        {[...Array(8)].map((_, i) => (
-          <div 
-            key={i}
-            className="floating-decoration"
-            style={{
-              top: `${Math.random() * 100}%`,
-              left: `${Math.random() * 100}%`,
-              width: `${Math.random() * 200 + 50}px`,
-              height: `${Math.random() * 200 + 50}px`,
-              transform: `scale(${animationProgress / 100})`,
-              transitionDelay: `${i * 0.05}s`
-            }}
-          />
-        ))}
-      </div>
+     
     </div>
   );
 };
