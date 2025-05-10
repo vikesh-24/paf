@@ -21,14 +21,7 @@ function GoogleAuth({ handleAuth }) {
     })
 
     return (
-        <div>
-            <div onClick={handleClick} className="loginButton google" >
-                <img src={google} alt="" className="icon"  />
-                Continue with Google
-            </div>
-
-            {/* <button onClick={handleClick}>Signin With Google</button> */}
-        </div>
+       
     );
 }
 export default GoogleAuth;
