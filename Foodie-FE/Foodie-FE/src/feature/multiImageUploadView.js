@@ -22,6 +22,42 @@ function MultiMediaUploadView(props) {
     };
 
     return (
+         <div>
+            {mediaItems && mediaItems.length > 0 && (
+                <div style={{ maxWidth: "600px", width: "100%" }}>
+                    <Carousel>
+                        {mediaItems.map((mediaItem, index) => (
+                            <Carousel.Item key={index}>
+                                {isVideo(mediaItem) ? (
+                                    <video 
+                                        className="d-block w-100" 
+                                        style={{
+                                            maxHeight: '300px',
+                                            objectFit: 'contain',
+                                            backgroundColor: '#f8f9fa'
+                                        }}
+                                        src={mediaItem} 
+                                        controls
+                                        alt={`media-${index}`}
+                                    />
+                                ) : (
+                                    <img 
+                                        className="d-block w-100" 
+                                        style={{
+                                            maxHeight: '300px',
+                                            objectFit: 'contain',
+                                            backgroundColor: '#f8f9fa'
+                                        }}
+                                        src={mediaItem} 
+                                        alt={`media-${index}`}
+                                    />
+                                )}
+                            </Carousel.Item>
+                        ))}
+                    </Carousel>
+                </div>
+            )}
+        </div>
        
     );
 }
