@@ -99,6 +99,89 @@ function SavedPosts() {
   };
 
   return (
+    <>
+      <Button
+        onClick={handleShowModal}
+        style={{
+          backgroundColor: '#92400e',
+          borderColor: '#92400e',
+          borderRadius: '0.5rem',
+          padding: '0.75rem 1.5rem',
+          fontWeight: '500',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '0.5rem',
+          width: '100%',
+          maxWidth: '300px',
+          justifyContent: 'center'
+        }}
+      >
+        <RiBookmarkFill size={18} />
+        Bookmarked Recipes
+      </Button>
+
+      <Modal
+        show={showModal}
+        onHide={handleCloseModal}
+        size="xl"
+        centered
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
+      >
+         <Modal.Header closeButton style={{ 
+          backgroundColor: "#92400e",
+          color: "white",
+          borderTopLeftRadius: "0.5rem",
+          borderTopRightRadius: "0.5rem"
+        }}>
+          <Modal.Title style={{ 
+            fontWeight: "bold",
+            display: "flex",
+            alignItems: "center",
+            gap: "0.5rem"
+          }}>
+             My Recipes & Posts
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body style={{ maxHeight: "500px", overflowY: "auto" }}>
+          {loading ? (
+            <div className="text-center">Loading saved posts...</div>
+          ) : savedPosts.length > 0 ? (
+            savedPosts.map((postItem) => (
+              <div key={postItem.id} style={{ marginBottom: "20px" }}>
+                <PostItem
+                  postId={postItem.id}
+                  userId={postItem.userId}
+                  firstName={postItem.userFirstName || ""}
+                  lastName={postItem.userLastName || ""}
+                  content={postItem.content}
+                  image={postItem.image}
+                  loveList={postItem.love}
+                  shareList={postItem.share}
+                  commentList={postItem.comment}
+                  postDate={postItem.createdAt}
+                  images={postItem.images}
+                />
+                <Button
+                  variant="danger"
+                  size="sm"
+                  onClick={() => handleUnsavePost(postItem.id)}
+                  style={{ marginTop: "10px" }}
+                >
+                  Remove from Saved
+                </Button>
+              </div>
+            ))
+          ) : (
+            <div className="text-center">No saved posts available</div>
+          )}
+        </Modal.Body>
+        <Modal.Footer style={{ backgroundColor: "#f8f9fa" }}>
+          <Button variant="secondary" onClick={handleCloseModal}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    </>
     
   );
 }
