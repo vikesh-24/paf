@@ -23,29 +23,7 @@ const userId = localStorage.getItem("psnUserId");
 
 function AppContainer() {
   return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<SkilllinkLanding />} />
-        <Route path="/s" element={<SignIn />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/signup" element={<SignUp />} />
-       
-        <Route path="/newsfeed" element={<NewsFeed />}>
-          <Route path="" element={<NewsFeedContent />} />
-          <Route path="following" element={<FollowingList />} />
-          <Route path="follower" element={<FollowerList />} />
-          <Route path="profile" element={<Profile />} />
-          <Route path="myprofile" element={<MyProfile />} />
-          <Route path="allaccounts" element={<AllAccounts />} />
-          <Route path="progress" element={<ProgressTracker userId={userId} />} />
-          <Route path="dashboard" element={<ProgressDashboard userId={userId} />} />
-          <Route path="education" element={<EducationalContentPage />} />
-          
-        </Route>
-        <Route path="/unauthorized" element={<UnauthorizedPage />} />
-        <Route path="*" element={<NotFoundPage />} />        
-      </Routes>
-    </HashRouter>
+   
   );
 }
 
