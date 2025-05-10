@@ -531,7 +531,9 @@ function SignUp() {
         autoHideDuration={3000}
         onClose={handleSnackbarClose}
         anchorOrigin={{ vertical: "top", horizontal: "right" }}
-      >
+      >  <Alert onClose={handleSnackbarClose} severity="error" sx={{ width: "100%" }}>
+          {snackbarMessage}
+        </Alert>
       
       </Snackbar>
     </>
